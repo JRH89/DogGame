@@ -26,16 +26,16 @@ window.addEventListener('load', function(){
             this.collisions = [];
             this.floatingMessages = [];
             this.enemyTimer = 0;
-            this.enemyInterval = 1000;
+            this.enemyInterval = 1500;
             this.maxParticles = 200;
             this.debug = false;
             this.score = 0;
-            this.winningScore = 40;
+            this.winningScore = 50;
             this.fontColor = 'black';
             this.time = 0;
-            this.maxTime = 30000;
+            this.maxTime = 60000;
             this.gameOver = false;
-            this.lives = 5;
+            this.lives = 10;
             this.player.currentState = this.player.states[0];
             this.player.currentState.enter();
         }
